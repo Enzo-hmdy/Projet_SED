@@ -38,11 +38,10 @@ def createSimulation(AA):
                  [0, 0, 0, 1], 
                  [0,1 - B/F, 0, 0]], #Cette matrice modelise les liens entre SI, SR, SS et SC
 
-        number_of_servers=[1, 1, 1, 1] #Chaque file d'attente contient un serveur
+        number_of_servers=[1, 2, 1, 1] #Chaque file d'attente contient un serveur
 
     )
     return N
-
 
 
 #---------- Partie 1 ----------#
